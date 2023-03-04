@@ -1,0 +1,232 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+	{#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+	\item\small{
+    	{#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  	\textbf{#1} & \textbf{\small #2} \\
+  	\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+  	\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+  	\small#1 & \textbf{\small #4}\\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+	{\Huge \scshape Anubhav Shukla} \\ \vspace{1pt}
+	Ghaziabad, Uttar Pradesh \\ \vspace{1pt}
+	\small \raisebox{-0.1\height}\faPhone\ +91 8076852620 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{anubhavshukla249@gmail.com}} ~
+	\href{https://linkedin.com/in/anubhav-shukla/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/anubhav-shukla}}
+	\vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+  	{Dr. A P J Abdul Kalam Technical University}{August 2019 - July 2022}
+  	{Bachelor of Technology in Computer Science and Engineering(CGPA of 7.72)}{Uttar Pradesh, India}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+  	{Robustresults Pvt ltd }{May 2020 -- July 2020}
+  	{Android Development  Intern}{Remote, India}
+  	\resumeItemListStart
+    	\resumeItem{Created a backend + frontend for a application that help user to manage his/her contact and call easily to anyone . }
+    	\resumeItem{Backend is completely based on SQLite Database. During the project , I learn to create a user interface and make a backend that save data in user data.}
+	\resumeItemListEnd
+  \resumeSubHeadingListEnd
+   \resumeSubHeadingListStart
+	\resumeSubheading
+  	{Future Ready Talent }{Oct 2021 -- Dec 2021}
+  	{virtual internship platform}{Remote, India}
+  	\resumeItemListStart
+    	\resumeItem{Created a backend + frontend for a application that help user to manage his/her todo list  . }
+        \resumeItem{During the virtual internship , I completed courses on Data and AI, Azure and Security. Of the listed modules there are 5 courses which are mandatory and must be completed within the specified time. }
+    	\resumeItem{This project is hosted on Microsoft Azure.}
+        \resumeItem{Front is build on react and Backend is completely based on LocalStorage. I used chakra user interface for better user interface  .}
+	\resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects }
+	\vspace{-5pt}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading
+      	{\textbf{Ecommerce} $|$ \emph{Next Js, Sanity, Stripe} $|$ ~
+	\href{https://anubhav-store.vercel.app/}{\raisebox{-0.2\height} \underline{https://anubhav-store.vercel.app/}}
+}{April 2022}
+      	\resumeItemListStart
+        	\resumeItem{An interface which will given an option to buy products and pay instantly using you debit or credit card.}
+        	\resumeItem{When user click on the product user have option  to increase number of products and user is able to see further details about product .}
+            \resumeItem{In Future we add a page for sellers , who want to add his product and sell to the customer .}
+      	\resumeItemListEnd
+	\vspace{-13pt}
+  	\resumeProjectHeading
+      	{\textbf{Special Memories} $|$ \emph{Node js, MongoDB , React JS, Express}  $|$~
+	\href {https://special-memories.netlify.app/posts}{\raisebox{-0.2\height} \underline{https://special-memories.netlify.app/posts}}}{March 2022}
+      	\resumeItemListStart
+        	\resumeItem{An user interactive website which describes different memories from different peoples and an authorised user can add a meomries and other details, edit or delete it using NodeJS, mongoDB and Express for back-end and React Js for front-end.}
+      	\resumeItem{Provide a signUp Form , And  for signIn users have two options SignIn Form or Google OAuth.}
+        \resumeItem{Include some features like Pagination,Like , Comments and  Search  .}
+        \resumeItemListEnd
+	\resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%
+%-----------Achievements-----------
+\section{Achievements }
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+    	\resumeItem {\href{https://leetcode.com/anubhavshukla}{Solved more than 600+ problems across platforms.}}
+          \resumeItem{\href{https://www.linkedin.com/learning/certificates/16b50f3da7376e75c38313b950b48dec7268fa65ef188cc9a81576e087d3cf1a?trk=share_certificate}{Completed Programming Foundations: Databases by LinkedIn.}}
+          \resumeItem{\href{https://www.freecodecamp.org/certification/anubhavs/front-end-development-libraries}{Front End Development Libraries by freeCodeCamp}}
+          \resumeItem{\href{https://www.linkedin.com/learning/certificates/5e97353979e537a2566383b1b20dbb8d4a83e3652c44a2e45e586326e43465b9?trk=share_certificate}{Succeeding in Web Development: Full Stack and Front End}}
+          \resumeItem{\href{https://drive.google.com/file/d/1uRUh2Zi7a8kucetzOMmkKyddyG7R8Gy6/view}{Zero To Hero Android Development Traning by Indian Institute of Technology, Kanpur}}
+           \resumeItem{\href{https://github.com/anubhav-shukla}{2,144 contributions in the last year on github}}
+    	\resumeItemListEnd
+ \end{itemize}
+ \vspace{-16pt}
+ 
+ %
+%-----------Profile Links-----------
+\section{Profile Links}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+    	\resumeItem {\href{https://github.com/anubhav-shukla}{Github}}
+    	\resumeItem {\href{https://leetcode.com/anubhavshukla/}{Leetcode}}
+    	\resumeItem {\href{https://auth.geeksforgeeks.org/user/chemistrybyshuklaclasses/profile}{GeeksforGeeks}}
+  	\resumeItemListEnd
+ \end{itemize}
+ \vspace{-16pt}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills }
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+ 	\textbf{Languages}{: C,C++,Linux, Computer Architecture} \\
+ 	\textbf{Technologies/Frameworks/Libraries}{:MongoDB, ReactJS, NextJs , Node, Express} \\
+	}}
+ \end{itemize}
+ \vspace{-16pt}
+
+\end{document}
+
